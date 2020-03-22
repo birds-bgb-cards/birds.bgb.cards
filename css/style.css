@@ -1,0 +1,156 @@
+@font-face {
+    font-family: 'NotoSansJP-Black';
+    src: url(../fonts/NotoSansJP-Black.otf);
+}
+@font-face {
+    font-family: 'NotoSansJP-Bold';
+    src: url(../fonts/NotoSansJP-Bold.otf);
+}
+@font-face {
+    font-family: 'NotoSansJP-Light';
+    src: url(../fonts/NotoSansJP-Light.otf);
+}
+@font-face {
+    font-family: 'NotoSansJP-Medium';
+    src: url(../fonts/NotoSansJP-Medium.otf);
+}
+@font-face {
+    font-family: 'NotoSansJP-Regular';
+    src: url(../fonts/NotoSansJP-Regular.otf);
+}
+@font-face {
+    font-family: 'NotoSansJP-Thin';
+    src: url(../fonts/NotoSansJP-Thin.otf);
+}
+body {
+    font-family: NotoSansJP-Regular;
+    background-image: url(../images/three-puffins.png);
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-size: 600px;
+}
+
+header {
+    background-color: white;
+    padding-top: 15px;
+    padding-left: 30px;
+}
+
+footer {
+    background-color: white;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+    font-family: NotoSansJP-Thin;
+}
+
+span {
+    background-color:white;
+    font-size: xx-large;
+    font-family: NotoSansJP-Bold;
+}
+
+.top-container {
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+    width:  100%;
+}
+
+.top-item {
+    margin: 0px;
+    padding-left: 20px;
+    padding-bottom: 20%;
+    text-shadow: 1px 1px white;
+    width:  100%;
+}
+
+.top-item p {
+    font-family: NotoSansJP-Light;
+    font-size: small;
+    padding-top: 10px;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: silver;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.item {
+    margin: 10px;
+    padding: 10px;
+    align-self: center;
+    width: 20%;
+    min-width: 200px;
+}
+
+.citem {
+    background-image: url(../images/bird.png);
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position-y: center;
+    background-position-x: center;
+    background-color:rgba(255,255,255,0.8);
+    background-blend-mode:lighten;
+    margin: 10px;
+    padding: 15px;
+    width: 20%;
+    min-width: 200px;
+}
+
+.citem p {
+    font-family: NotoSansJP-Light;
+    font-size: smaller;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+h1 {
+    font-family: NotoSansJP-Bold;
+}
+
+h2 {
+    font-family: NotoSansJP-Bold;
+}
+
+h3 {
+    font-family: NotoSansJP-Bold;
+}
+
+.btn {
+    width: 100px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: black;
+    padding: 2px;
+    text-align: center;
+    color: white;
+    font-family: NotoSansJP-Regular;
+    text-decoration: none;
+}
+
+.map-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.mcitem {
+    font-family: NotoSansJP-Bold;
+    width: 50%;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 20px;
+    padding-right: 20px;
+    align-self: center;
+    min-width: 400px;
+}
+
+.blur{
+    -ms-filter: blur(6px);
+    filter: blur(6px);
+  }
